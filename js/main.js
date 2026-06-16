@@ -6,6 +6,8 @@ function each(sel, fn) { document.querySelectorAll(sel).forEach(fn); }
 
 function formatPrice(p) { return 'LKR ' + p.toLocaleString(); }
 
+const V = '?v=2';
+
 // ====== APPLY CONFIG ======
 
 function applyConfig() {
@@ -62,7 +64,7 @@ function applyConfig() {
     if (fGrid) {
       fGrid.innerHTML = C.featured.map((item, i) => `
         <div class="featured-card anim-hidden">
-          <div class="img-wrap"><img src="${item.image}" alt="${item.alt}" loading="lazy"></div>
+          <div class="img-wrap"><img src="${item.image}${V}" alt="${item.alt}" loading="lazy"></div>
           <div class="card-body">
             <h3>${item.name}</h3>
             <p>${item.description}</p>
@@ -91,7 +93,7 @@ function applyConfig() {
     const gGrid = document.getElementById('gallery-grid');
     if (gGrid) {
       gGrid.innerHTML = C.gallery.map(g => `
-        <img src="${g.src}" alt="${g.alt}" loading="lazy" class="anim-hidden">
+        <img src="${g.src}${V}" alt="${g.alt}" loading="lazy" class="anim-hidden">
       `).join('');
     }
   }
