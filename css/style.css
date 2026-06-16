@@ -255,6 +255,41 @@ nav a.active {
   white-space: nowrap;
 }
 
+/* ===== Page Hero (menu, contact, etc) ===== */
+.page-hero {
+  text-align: center;
+  padding: 100px 24px;
+  background: linear-gradient(135deg, var(--fire-red), var(--fire-orange));
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+.page-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.page-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.page-hero h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 6vw, 4rem);
+  letter-spacing: 2px;
+}
+
+.page-hero p {
+  font-size: 1.1rem;
+  margin: 16px 0 0;
+  opacity: 0.95;
+}
+
 .btn {
   display: inline-block;
   padding: 14px 36px;
@@ -1298,6 +1333,19 @@ footer .copyright {
 
   .gallery-grid img {
     height: 150px;
+  }
+
+  /* Page hero (menu, contact) */
+  .page-hero {
+    padding: 60px 16px 50px;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(1.8rem, 8vw, 2.8rem);
+  }
+
+  .page-hero p {
+    font-size: 0.95rem;
   }
 
   /* Order page */
