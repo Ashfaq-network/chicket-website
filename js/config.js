@@ -89,6 +89,9 @@ const CONFIG = {
     { text: 'Love their Signature Roti with hummus. Always fresh, always delicious. Highly recommend!', author: 'Sara F.', stars: 5 },
     { text: 'Best flame-grilled chicken in Colombo area. The Flame Platter is perfect for family dinners.', author: 'Nimal P.', stars: 5 },
     { text: 'Great food, generous portions, and the lemon juice is refreshing. My go-to spot in Wellampitiya!', author: 'Aisha K.', stars: 4 },
+    { text: 'If you\'re craving Dubai style grilled chicken, definitely check out Chicket opposite Keells. The chicken is juicy and full of flavour!', author: 'Anisha T.', stars: 5 },
+    { text: 'Chicken Nuggets are the best I\'ve had — crispy outside, tender inside. The sauces are amazing too!', author: 'Ravi P.', stars: 5 },
+    { text: 'Ordered the Flame Platter for a family gathering. Everyone loved it. Full chicken with roti, hummus and fries — great value!', author: 'Dinesh K.', stars: 5 },
   ],
 
   gallery: [
