@@ -181,6 +181,15 @@ nav a.active {
   color: var(--fire-amber);
 }
 
+.hero-content h1 .hero-brand {
+  display: block;
+  font-size: 1.3em;
+  letter-spacing: 8px;
+  color: var(--white);
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
 .hero-content p {
   font-size: 1.15rem;
   margin: 20px 0 30px;
