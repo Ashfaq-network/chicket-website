@@ -290,6 +290,11 @@ nav a.active {
   opacity: 0.95;
 }
 
+/* Contact page hero — unique teal gradient */
+.contact-hero {
+  background: linear-gradient(135deg, #004D40, #00897B);
+}
+
 .btn {
   display: inline-block;
   padding: 14px 36px;
@@ -621,7 +626,7 @@ section {
 .order-hero {
   text-align: center;
   padding: 100px 24px;
-  background: linear-gradient(135deg, var(--fire-red), var(--fire-orange));
+  background: linear-gradient(135deg, #E65100, var(--fire-amber));
   color: var(--white);
   position: relative;
   overflow: hidden;
