@@ -106,10 +106,17 @@ header .container {
   font-size: 1.8rem;
   color: var(--fire-orange);
   letter-spacing: 2px;
+  line-height: 1;
 }
 
 .logo span {
   color: var(--fire-red);
+}
+
+.logo img {
+  display: block;
+  max-height: 42px;
+  width: auto;
 }
 
 nav a {

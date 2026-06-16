@@ -4,6 +4,7 @@ const CONFIG = {
     shortName: 'CHICKET',
     tagline: 'ALL ABOUT <span>HOMEMADE</span>',
     description: 'Fresh, homemade grilled chicken in Wellampitiya. Dubai-style flame-grilled chicken — open every evening from 3:30 PM.',
+    logo: 'images/logo.jpg',
   },
 
   colors: {
@@ -91,9 +92,11 @@ const CONFIG = {
   ],
 
   gallery: [
-    { src: 'images/gallery-1.jpg', alt: 'Grill Feast with roti and hummus' },
-    { src: 'images/gallery-2.jpg', alt: 'Flame Platter full grilled chicken' },
     { src: 'images/gallery-3.jpg', alt: 'Chicket grilled chicken feast' },
+    { src: 'images/gallery-4.jpg', alt: 'Grill Chicken Sambawam at Chicket' },
+    { src: 'images/gallery-5.jpg', alt: 'Juiciest grilled chicken in Wellampitiya' },
+    { src: 'images/gallery-2.jpg', alt: 'Flame Platter full grilled chicken' },
+    { src: 'images/gallery-1.jpg', alt: 'Chicket store on Uber Eats' },
   ],
 
   promoBanner: {

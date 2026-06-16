@@ -12,10 +12,16 @@ function applyConfig() {
   const C = CONFIG;
 
   // Business name / logo
-  each('.logo', el => el.innerHTML = C.business.shortName);
+  each('.logo', el => {
+    if (C.business.logo) {
+      el.innerHTML = `<img src="${C.business.logo}" alt="${C.business.name}" style="height:42px;width:auto;display:block">`;
+    } else {
+      el.innerHTML = C.business.shortName;
+    }
+  });
 
   // Footer business info
-  set('footer-business', C.business.shortName);
+  set('footer-business', C.business.logo ? `<img src="${C.business.logo}" alt="${C.business.name}" style="height:36px;width:auto">` : C.business.shortName);
   set('footer-address', C.contact.address);
   set('footer-phone', `<a href="tel:${C.contact.phoneDigits}" style="color:#aaa">${C.contact.phone}</a>`);
   set('footer-hours', C.contact.hours);
