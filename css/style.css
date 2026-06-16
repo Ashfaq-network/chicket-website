@@ -109,6 +109,10 @@ header .container {
   line-height: 1;
 }
 
+.logo:empty {
+  display: none;
+}
+
 .logo span {
   color: var(--fire-red);
 }
@@ -183,11 +187,15 @@ nav a.active {
 
 .hero-content h1 .hero-brand {
   display: block;
-  font-size: 1.3em;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.4em;
   letter-spacing: 8px;
-  color: var(--white);
   margin-bottom: 6px;
   line-height: 1.2;
+  background: linear-gradient(90deg, #FF6B35, #FFB300, #F7C59F, #E8A87C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hero-content p {

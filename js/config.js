@@ -1,7 +1,7 @@
 const CONFIG = {
   business: {
     name: 'Chicket',
-    shortName: 'CHICKET',
+    shortName: '',
     tagline: '<span class="hero-brand">CHICKET</span>ALL ABOUT <span>HOMEMADE</span>',
     description: 'Fresh, homemade grilled chicken in Wellampitiya. Dubai-style flame-grilled chicken — open every evening from 3:30 PM.',
     logo: '',
