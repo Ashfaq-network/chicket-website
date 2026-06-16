@@ -208,6 +208,7 @@ nav a.active {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hero-visual {
@@ -1224,10 +1225,6 @@ footer .copyright {
     padding: 0 24px;
     text-align: center;
     max-width: 100%;
-  }
-
-  .hero-content .btn-group {
-    justify-content: center;
   }
 
   .hero-visual {
