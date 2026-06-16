@@ -79,9 +79,9 @@ const CONFIG = {
   ],
 
   featured: [
-    { name: 'Grill Feast (2 Person)', description: 'Half flame-grilled chicken with one Signature Roti, hummus, and golden crunch fries. Our most-loved meal!', price: 'LKR 1,980', badge: 'Most Popular', image: 'images/gallery-4.jpg', alt: 'Grill Feast half chicken with sides' },
+    { name: 'Grill Feast (2 Person)', description: 'Half flame-grilled chicken with one Signature Roti, hummus, and golden crunch fries. Our most-loved meal!', price: 'LKR 1,980', badge: 'Most Popular', image: 'images/gallery-7.jpg', alt: 'Grill Feast half chicken with sides' },
     { name: 'Flame Platter (4 Person)', description: 'Full flame-grilled chicken with two Signature Rotis, hummus, and golden crunch fries. Perfect for sharing!', price: 'LKR 3,970', badge: 'Family Deal', image: 'images/gallery-2.jpg', alt: 'Flame Platter full chicken feast' },
-    { name: 'Signature Roti', description: 'Our homemade Signature Roti — soft, warm, and the perfect companion to any meal. 87% of customers love it!', price: 'LKR 250', badge: 'Customer Favorite', image: 'images/gallery-5.jpg', alt: 'Signature Roti' },
+    { name: 'Signature Roti', description: 'Our homemade Signature Roti — soft, warm, and the perfect companion to any meal. 87% of customers love it!', price: 'LKR 250', badge: 'Customer Favorite', image: 'images/gallery-3.jpg', alt: 'Signature Roti' },
   ],
 
   testimonials: [
@@ -92,6 +92,8 @@ const CONFIG = {
   ],
 
   gallery: [
+    { src: 'images/gallery-8.jpg', alt: 'Grill Chicken Sambawam at Chicket' },
+    { src: 'images/gallery-1.jpg', alt: 'Grilled chicken feast with rice and sides' },
     { src: 'images/gallery-4.jpg', alt: 'Crispy chicken nuggets with sauce' },
     { src: 'images/gallery-5.jpg', alt: 'Chocolate fudge dessert' },
     { src: 'images/gallery-6.jpg', alt: 'Refreshing lemon juice and faluda' },
