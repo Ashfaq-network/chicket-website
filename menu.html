@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu — Chicket | Wellampitiya</title>
+  <meta name="description" content="Full menu for Chicket in Wellampitiya. Flame-grilled chicken, roti, hummus, fries, and more. Order online.">
+  <link rel="canonical" href="https://ashfaq-network.github.io/chicket-website/menu">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍗</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="promo-banner">
+    <span>🔥 Order on Uber Eats — Get your favourites delivered! <a href="order.html">Order Now</a></span>
+    <button class="close-banner">&times;</button>
+  </div>
+
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo"></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Order</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding:70px 24px">
+    <h1>OUR <span>MENU</span></h1>
+    <p>All prices in Sri Lankan Rupees (LKR)</p>
+  </section>
+
+  <section class="menu-section">
+    <div class="container">
+      <div class="filter-tabs anim-hidden">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="grilled">Grilled</button>
+        <button class="filter-btn" data-filter="starters">Starters</button>
+        <button class="filter-btn" data-filter="addons">Add Ons</button>
+        <button class="filter-btn" data-filter="drinks">Drinks</button>
+        <button class="filter-btn" data-filter="desserts">Desserts</button>
+      </div>
+      <div id="menu-wrap"></div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="anim-hidden">READY TO <span style="color:var(--fire-red)">ORDER</span>?</h2>
+      <p class="anim-hidden">Get your favorites delivered straight to your door.</p>
+      <a href="order.html" class="btn anim-hidden">Order via Uber Eats</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="logo" id="footer-business"></div>
+      <p id="footer-address"></p>
+      <p id="footer-phone"></p>
+      <p id="footer-hours"></p>
+      <div class="footer-social">
+        <a href="https://wa.me/94777779789" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">💬</a>
+        <a href="https://www.instagram.com/the_chicket/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
+        <a href="https://www.ubereats.com/lk/store/chicket-wellampitiya/a9GwMQy0UC2km_NTZzac7A" target="_blank" rel="noopener noreferrer" aria-label="Uber Eats">🚚</a>
+      </div>
+      <p class="copyright">&copy; <span id="footer-year"></span> Chicket. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    💬
+    <span class="tooltip">Contact for pickup</span>
+  </a>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <div class="lightbox">
+    <button class="lb-close">&times;</button>
+    <button class="lb-nav lb-prev">&lsaquo;</button>
+    <img class="lb-img" src="" alt="">
+    <button class="lb-nav lb-next">&rsaquo;</button>
+    <div class="lb-counter"></div>
+  </div>
+
+  <div class="sticky-order-bar">
+    <div class="container">
+      <span class="bar-text">🔥 Craving grilled chicken?</span>
+      <a href="order.html" class="btn">Order Now</a>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
