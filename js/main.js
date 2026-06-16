@@ -4,7 +4,7 @@ function set(el, html) { const e = document.getElementById(el); if (e) e.innerHT
 
 function each(sel, fn) { document.querySelectorAll(sel).forEach(fn); }
 
-function formatPrice(p) { return 'LKR ' + p.toLocaleString(); }
+function formatPrice(p) { return 'LKR ' + p.toLocaleString('en-US'); }
 
 const V = '?v=2';
 
@@ -329,4 +329,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initFilterTabs();
   initScrollReveal();
   initBackToTop();
+
+  if (window.location.pathname.includes('order.html')) {
+    const bar = document.querySelector('.sticky-order-bar');
+    if (bar) bar.remove();
+  }
 });

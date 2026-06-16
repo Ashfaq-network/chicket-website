@@ -1258,20 +1258,8 @@ footer .copyright {
     line-height: 1.4;
   }
 
-  .hero {
-    padding: 60px 16px 50px;
-  }
-
-  .hero h1 {
-    letter-spacing: 1px;
-  }
-
-  .hero .btn,
-  .hero .btn-outline {
-    display: block;
-    width: 100%;
-    max-width: 280px;
-    margin: 8px auto !important;
+  .sticky-order-bar {
+    display: flex;
   }
 
   section {
