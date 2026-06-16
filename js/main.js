@@ -34,7 +34,14 @@ function applyConfig() {
 
   // Page title
   const titleEl = document.getElementById('page-title');
-  if (titleEl) titleEl.textContent = `${C.business.name} — ${C.business.tagline.replace(/<[^>]+>/g, '')} | ${C.contact.addressShort.split(',')[0]}`;
+  if (titleEl) {
+    const cleanTagline = C.business.tagline
+      .replace(/<span class="hero-brand">[^<]+<\/span>/g, '')
+      .replace(/<[^>]+>/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    titleEl.textContent = `${C.business.name} — ${cleanTagline} | ${C.contact.addressShort.split(',')[0]}`;
+  }
 
   // Promo banner
   const banner = document.querySelector('.promo-banner span');
@@ -170,7 +177,7 @@ function bindOrderForm() {
     items.forEach(item => {
       total += parseInt(item.dataset.price) * parseInt(item.querySelector('.qty').textContent);
     });
-    if (totalEl) totalEl.textContent = 'LKR ' + total.toLocaleString();
+    if (totalEl) totalEl.textContent = formatPrice(total);
     return total;
   }
 
