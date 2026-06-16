@@ -93,10 +93,10 @@ const CONFIG = {
 
   gallery: [
     { src: 'images/gallery-3.jpg', alt: 'Chicket grilled chicken feast' },
+    { src: 'images/gallery-2.jpg', alt: 'Flame Platter full grilled chicken' },
+    { src: 'images/gallery-6.jpg', alt: 'Grilled chicken combo at Chicket' },
     { src: 'images/gallery-4.jpg', alt: 'Grill Chicken Sambawam at Chicket' },
     { src: 'images/gallery-5.jpg', alt: 'Juiciest grilled chicken in Wellampitiya' },
-    { src: 'images/gallery-2.jpg', alt: 'Flame Platter full grilled chicken' },
-    { src: 'images/gallery-1.jpg', alt: 'Chicket store on Uber Eats' },
   ],
 
   promoBanner: {
