@@ -6,7 +6,7 @@ function each(sel, fn) { document.querySelectorAll(sel).forEach(fn); }
 
 function formatPrice(p) { return 'LKR ' + p.toLocaleString('en-US'); }
 
-const V = '?v=2';
+const V = '?v=3';
 
 // ====== APPLY CONFIG ======
 
