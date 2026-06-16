@@ -188,14 +188,15 @@ nav a.active {
 .hero-content h1 .hero-brand {
   display: block;
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 1.4em;
-  letter-spacing: 8px;
+  font-size: 1.3em;
+  letter-spacing: 4px;
   margin-bottom: 6px;
   line-height: 1.2;
-  background: linear-gradient(90deg, #FF6B35, #FFB300, #F7C59F, #E8A87C);
+  background: linear-gradient(135deg, #FF6B35, #FFB300);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  color: transparent;
 }
 
 .hero-content p {
